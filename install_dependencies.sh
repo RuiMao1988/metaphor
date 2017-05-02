@@ -15,7 +15,7 @@ if [ "${INSTALL_TURBO_PARSER}" == "1" ] ; then
   cd tools
   wget http://www.cs.cmu.edu/~afm/TurboParser/TurboParser-2.1.0.tar.gz
   tar -zxvf TurboParser-2.1.0.tar.gz
-  cd tools/TurboParser-2.1.0
+  cd TurboParser-2.1.0
   mkdir -p models/english_proj
   cd models/english_proj
   wget https://www.ark.cs.cmu.edu/TurboParser/sample_models/english_proj_tagger.tar.gz
